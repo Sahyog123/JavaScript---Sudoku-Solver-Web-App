@@ -23,7 +23,7 @@ var grid_values;
 // Function to populate random numbers in Sudoku board cells
 function populateRandomNumbers() {
     var cells = document.querySelectorAll("#Sudoku_board .cell input");
-    var numbers = [1,2,3,4,5,6,7,8,9];//Array.from({ length: 9 }, (_, i) => i + 1); // Array of numbers 1 to 9
+    var numbers = [1,2,3,4,5,6,7,8,9];// Array of numbers 1 to 9
     shuffleArray(numbers); // Shuffle the array to randomize the numbers
 
     // Create a 9x9 grid to store the numbers
@@ -78,7 +78,7 @@ function populateRandomNumbers() {
 
 }
 
-// Function to shuffle an array (Fisher-Yates shuffle algorithm)
+// Function to shuffle an array
 function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
@@ -150,7 +150,7 @@ function isValid(grid, row, col, num) {
     return true; // Number is valid in the current position
 }
 
-
+// Function to reset the board
 function Reset()
 {
     var cells = document.querySelectorAll("#Sudoku_board .cell input");

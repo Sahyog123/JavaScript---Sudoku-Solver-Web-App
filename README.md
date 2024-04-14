@@ -22,7 +22,7 @@ This web application allows you to generate and solve Sudoku puzzles online.
 
 **Sudoku Solver:** Use the "Solve Game" button to automatically solve the currently displayed Sudoku puzzle. The solver employs an efficient algorithm to find the solution.
 
-**Clear Grid:** If you want to start fresh, simply click the "Clear" button to clear the entire Sudoku grid and reset the puzzle.
+**Clear Grid:** If you want to start fresh, simply click the "Reset" button to clear the entire Sudoku grid and reset the puzzle.
 
 ## Technologies Used
 * HTML
